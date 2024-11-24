@@ -1,4 +1,4 @@
-﻿using SubtypeCovariance;
+﻿namespace SubtypeCovariance;
 
 class Program
 {
@@ -8,7 +8,7 @@ class Program
         EntityRepository entityRepository = new EntityRepository();
         Entity myEntity = entityRepository.GetByID(Guid.NewGuid());
 
-        myEntity.Name = "Tom";
+        myEntity.Name = "Rylan";
         Console.WriteLine("New entity ID: " + myEntity.ID.ToString());
         Console.WriteLine("New entity Name: " + myEntity.Name);
 

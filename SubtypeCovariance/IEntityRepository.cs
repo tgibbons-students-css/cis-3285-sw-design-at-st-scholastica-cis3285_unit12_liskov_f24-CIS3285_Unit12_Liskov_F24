@@ -11,4 +11,5 @@ namespace SubtypeCovariance
     {
         TEntity GetByID(Guid id);
     }
+
 }
